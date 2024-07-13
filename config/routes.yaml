@@ -5,5 +5,12 @@ controllers:
     type: attribute
     prefix: /api
 
+frontend_controllers:
+    resource:
+        path: ../src/Controller/FrontEnd/
+        namespace: App\Controller\FrontEnd
+    type: attribute
+    prefix: /api/fe
+
 api_login_check:
     path: /api/login_check
